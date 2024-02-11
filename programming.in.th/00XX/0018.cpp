@@ -8,7 +8,7 @@ int main() {
     vector<int> alr(n+1);
 
     int c = 0, j = 2;
-    while (c != k) {
+    while (1) {
         if (!alr[j]) {
             for (int i = j; i <= n; i += j) {
                 if (!alr[i]) {
